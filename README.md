@@ -15,7 +15,7 @@ Before opening the project, you need Unity Hub and the correct editor version:
 Clone this project to your local machine using Git Bash or your preferred Git desktop application:
 ```bash
 git clone https://github.com/Fallen-coder/Platformer_Unity.git
-
+```
 3. Open the Project in Unity Hub
 Instead of creating a new project, open the cloned folder directly:
 
