@@ -523,7 +523,7 @@ GameObject:
   - component: {fileID: 401793186}
   - component: {fileID: 401793185}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Standout
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -596,6 +596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 407916218}
   - component: {fileID: 407916219}
+  - component: {fileID: 407916220}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -679,7 +680,7 @@ MonoBehaviour:
       - m_Target: {fileID: 37717620}
         m_TargetAssemblyTypeName: GlobalAudioManager, Assembly-CSharp
         m_MethodName: SetMusicVolume
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -688,6 +689,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &407916220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407916217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8812ca91ca5290947aeae1f177a06bca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &427622708
 GameObject:
   m_ObjectHideFlags: 0
@@ -5774,7 +5787,7 @@ AudioSource:
   m_GameObject: {fileID: 1793791202}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d1ce0de81dab8254189b1134c6c48551, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 4b854051ec3c91a4d95de789b9524bb0, type: 3}
   m_PlayOnAwake: 1
