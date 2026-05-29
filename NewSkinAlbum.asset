@@ -16,16 +16,16 @@ MonoBehaviour:
   - skinName: Masked
     uiIcon: {fileID: -6367560908665664636, guid: 3750f45c844123341b9a777a96cb1eca, type: 3}
     defaultSprite: {fileID: -6367560908665664636, guid: 3750f45c844123341b9a777a96cb1eca, type: 3}
-    animatorOverride: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: f9034f5dd1690964ebd4d1507c506646, type: 2}
   - skinName: Frog
     uiIcon: {fileID: -6367560908665664636, guid: cd947491a13509945aa1b644f9db3ef2, type: 3}
     defaultSprite: {fileID: -6367560908665664636, guid: cd947491a13509945aa1b644f9db3ef2, type: 3}
-    animatorOverride: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: 6d4fc654759df3b4e938fe8e409f4617, type: 2}
   - skinName: Pink
     uiIcon: {fileID: -6367560908665664636, guid: d348dff3819df794186a80cb95777629, type: 3}
     defaultSprite: {fileID: -6367560908665664636, guid: d348dff3819df794186a80cb95777629, type: 3}
-    animatorOverride: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: 58284f76b5329c540bd435ebdca33515, type: 2}
   - skinName: Blue
     uiIcon: {fileID: -6367560908665664636, guid: 40de9a8703e2e5a47882b0b86451c741, type: 3}
     defaultSprite: {fileID: -6367560908665664636, guid: 40de9a8703e2e5a47882b0b86451c741, type: 3}
-    animatorOverride: {fileID: 0}
+    animatorOverride: {fileID: 22100000, guid: ff3b270112d2122468c1e6ef3459c4e5, type: 2}
