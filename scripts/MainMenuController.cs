@@ -81,4 +81,42 @@ public class MainMenuController : MonoBehaviour
         PlayerPrefs.Save();
         SceneManager.LoadScene("lv3");
     }
+
+    //QUITING
+private void OnApplicationQuit()
+{
+    // This handles Alt+F4, the 'X' button, and mobile app closing
+    ClearSavedScreen();
+}
+
+public void QuitGameComplete()
+{
+    // This handles your custom in-game Quit button
+    ClearSavedScreen();
+    
+    Debug.Log("Game is exiting...");
+    Application.Quit(); 
+}
+
+// This magic line tells Unity: "Run this code ONCE when the game first launches"
+[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+private static void CleanUpOnFreshBoot()
+{
+    // If the game is starting completely fresh, clear the key
+    if (PlayerPrefs.HasKey("SavedScreenIndex"))
+    {
+        PlayerPrefs.DeleteKey("SavedScreenIndex");
+        PlayerPrefs.Save();
+    }
+}
+
+// Clean up the key before leaving
+private void ClearSavedScreen()
+{
+    if (PlayerPrefs.HasKey("SavedScreenIndex"))
+    {
+        PlayerPrefs.DeleteKey("SavedScreenIndex");
+        PlayerPrefs.Save();
+    }
+}
 }
